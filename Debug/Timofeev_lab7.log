@@ -1,0 +1,56 @@
+﻿Построение начато 03.06.2016 17:22:43.
+     1>Проект "L:\Timofeev_lab7\Timofeev_lab7\Timofeev_lab7.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Timofeev_lab7.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         F:\vs10\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Timofeev_lab7.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Timofeev_lab7.cpp
+         Timofeev_lab7.cpp
+     1>l:\timofeev_lab7\timofeev_lab7\testing.h(64): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\stdlib.h(433): см. объявление "getenv"
+     1>l:\timofeev_lab7\timofeev_lab7\testing.h(74): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\stdlib.h(433): см. объявление "getenv"
+     1>l:\timofeev_lab7\timofeev_lab7\testing.h(298): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\stdlib.h(433): см. объявление "getenv"
+     1>l:\timofeev_lab7\timofeev_lab7\testing.h(301): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>l:\timofeev_lab7\timofeev_lab7\timofeev_lab7.cpp(38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\stdio.h(304): см. объявление "scanf"
+     1>l:\timofeev_lab7\timofeev_lab7\timofeev_lab7.cpp(48): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\stdio.h(277): см. объявление "gets"
+     1>l:\timofeev_lab7\timofeev_lab7\timofeev_lab7.cpp(74): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\stdio.h(304): см. объявление "scanf"
+     1>l:\timofeev_lab7\timofeev_lab7\timofeev_lab7.cpp(96): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>l:\timofeev_lab7\timofeev_lab7\timofeev_lab7.cpp(115): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\string.h(188): см. объявление "strncpy"
+     1>l:\timofeev_lab7\timofeev_lab7\timofeev_lab7.cpp(120): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\string.h(188): см. объявление "strncpy"
+     1>l:\timofeev_lab7\timofeev_lab7\timofeev_lab7.cpp(126): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs10\vc\include\string.h(188): см. объявление "strncpy"
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         F:\vs10\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\Timofeev_lab7\Debug\Timofeev_lab7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Timofeev_lab7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"L:\Timofeev_lab7\Debug\Timofeev_lab7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\Timofeev_lab7\Debug\Timofeev_lab7.lib" /MACHINE:X86 Debug\Timofeev_lab7.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\Timofeev_lab7.obj /FORCE:MULTIPLE 
+     1>LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/FORCE"
+     1>str_unit.lib(Stubs.obj) : warning LNK4006: "int __cdecl textToWords(char const (* const)[81],int,char (* const)[21])" (?textToWords@@YAHQAY0FB@$$CBDHQAY0BF@D@Z) уже определен в Timofeev_lab7.obj; второе определение пропущено
+     1>str_unit.lib(Stubs.obj) : warning LNK4006: "int __cdecl strToWords(char const *,int,char (* const)[21])" (?strToWords@@YAHPBDHQAY0BF@D@Z) уже определен в Timofeev_lab7.obj; второе определение пропущено
+     1>L:\Timofeev_lab7\Debug\Timofeev_lab7.exe : warning LNK4088: образ создается из-за параметра /FORCE; образ нельзя запустить
+     1>str_unit.lib(actual_testing.obj) : warning LNK4099: "vc90.pdb" PDB не найден с "str_unit.lib(actual_testing.obj)" или на "L:\Timofeev_lab7\Debug\vc90.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>str_unit.lib(str_unit.obj) : warning LNK4099: "vc90.pdb" PDB не найден с "str_unit.lib(str_unit.obj)" или на "L:\Timofeev_lab7\Debug\vc90.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>str_unit.lib(Stubs.obj) : warning LNK4099: "vc90.pdb" PDB не найден с "str_unit.lib(Stubs.obj)" или на "L:\Timofeev_lab7\Debug\vc90.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>str_unit.lib(unit_io.obj) : warning LNK4099: "vc90.pdb" PDB не найден с "str_unit.lib(unit_io.obj)" или на "L:\Timofeev_lab7\Debug\vc90.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Timofeev_lab7.exe.embed.manifest" /manifest Debug\Timofeev_lab7.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         Timofeev_lab7.vcxproj -> L:\Timofeev_lab7\Debug\Timofeev_lab7.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Timofeev_lab7.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Timofeev_lab7.lastbuildstate".
+     1>Построение проекта "L:\Timofeev_lab7\Timofeev_lab7\Timofeev_lab7.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.26
